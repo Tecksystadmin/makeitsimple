@@ -515,18 +515,16 @@ function Header() {
                     className="btn-br bg-btn3 btshad-b2 lnk"
                   >
                     Request A Quote <span className="circle"></span>
-                  </a>{" "}
+                  </a>
                 </li>
                 <li className="hidedesktop darkmodeswitch">
-                  <div className="switch-wrapper">
-                    {" "}
-                    <label className="switch" for="niwax">
-                      {" "}
-                      <input type="checkbox" id="niwax" />{" "}
-                      <span className="slider round"></span>{" "}
-                    </label>{" "}
-                  </div>{" "}
-                </li>
+                  <div className="switch-wrapper"> 
+                    <label className="switch" htmlFor="niwax"> 
+                    <input type="checkbox" id="niwax"/>  
+                    <span className="slider round"></span> 
+                    </label> 
+                  </div> 
+                </li> 
                 <li className="hidedesktop">
                   <a
                     data-bs-toggle="offcanvas"
@@ -537,7 +535,7 @@ function Header() {
                   </a>
                 </li>
                 <li className="navm- hidedesktop">
-                  {" "}
+                  
                   <a className="toggle" href="#">
                     <span></span>
                   </a>
@@ -895,7 +893,7 @@ function Header() {
               <li className="prb">
                 <a href="skype:niwax.company?call">
                   <svg
-                    enable-background="new 0 0 24 24"
+                    enableBackground="new 0 0 24 24"
                     height="18"
                     viewBox="0 0 24 24"
                     width="18"
