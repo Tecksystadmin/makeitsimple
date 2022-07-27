@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Index from "./Pages/index";
+import Index from "./Components/index";
 
 function App() {
   return (

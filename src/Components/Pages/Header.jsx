@@ -1,8 +1,18 @@
 import React from "react";
+import About from "./About"
+import Price from "./Price";
+import Testonomial from "./Testonimial";
+import Portfolio from "./Portfolio";
 
 function Header() {
   return (
     <div>
+
+      <About/>
+      <Price/>
+      <Testonomial/>
+      <Portfolio/>
+      
       <header className="header-pr nav-bg-b main-header navfix fixed-top menu-white">
         <div className="container-fluid m-pad">
           <div className="menu-header">
@@ -227,6 +237,12 @@ function Header() {
                       </div>
                     </div>
                   </div>
+                </li>
+                <li className="sbmenu">
+                  <a href="#." className="menu-links">
+                    About
+                  </a>
+                 
                 </li>
                 <li className="sbmenu">
                   <a href="#" className="menu-links">

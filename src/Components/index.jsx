@@ -1,7 +1,8 @@
 import React from "react";
-import Header from "../Components/Header";
-import Sidebar from "../Components/Sidebar";
-import Footer from "../Components/Footer";
+import Header from "./Pages/Header";
+import Sidebar from "./Pages/Sidebar";
+import Footer from "./Pages/Footer";
+
 
 function Index() {
   return (
@@ -9,6 +10,7 @@ function Index() {
     <div>
        <Header />
       <Sidebar />
+      
       <div id="progress-bar"></div>
       <div className="onloadpage" id="page_loader">
         <div className="pre-content">
