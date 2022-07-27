@@ -22,7 +22,7 @@ function Index() {
             />
           </div>
           <div className="pre-text- text-radius text-light text-animation bg-b">
-            Niwax - Creative Agency & Portfolio HTML Template Are 2 Seconds
+            Make it Simple- Creative Agency & Portfolio HTML Template Are 2 Seconds
             Away. Have Patience
           </div>
         </div>
@@ -34,12 +34,12 @@ function Index() {
             <div className="col-lg-5">
               <div className="hero-heading-sec">
                 <h2 className="wow fadeIn" data-wow-delay="0.3s">
-                  <span>Web.</span> <span>Mobile.</span> <span>Graphic.</span>{" "}
-                  <span>Marketing.</span>
+                  <span>Unlimited Graphics & Video Designs
+                        Flat Monthly Fees.
+                        SUBSCRIBE NOW</span> 
                 </h2>
                 <p className="wow fadeIn" data-wow-delay="0.6s">
-                  Website and App development solution for transforming and
-                  innovating businesses.
+                One Graphic & Video Free for our New Clients 
                 </p>
                 <a
                   href="case-study.html"
@@ -1190,17 +1190,16 @@ function Index() {
           <div className="row">
             <div className="col-lg-4 v-center">
               <div className="common-heading text-l">
-                <span>Industries we work for</span>
-                <h2>Helping Businesses in All Domains</h2>
+                {/* <span>Industries we work for</span> */}
+                <h2>OUR PERKS</h2>
                 <p>
-                  Successfully delivered digital products Lorem Ipsum is simply
-                  dummy text of the printing and typesetting industry.
+                99% of the current market assets are handled manually or by some Technical Indicators and Fundamentals or with the help of wealth managers human-derived results with emotions and Failure.
                 </p>
               </div>
             </div>
             <div className="col-lg-8">
               <div className="work-card-set">
-                <div className="icon-set wow fadeIn" data-wow-delay=".2s">
+                {/* <div className="icon-set wow fadeIn" data-wow-delay=".2s">
                   <div className="work-card cd1">
                     <div className="icon-bg">
                       <img
@@ -1210,8 +1209,8 @@ function Index() {
                     </div>
                     <p>Social Networking</p>
                   </div>
-                </div>
-                <div className="icon-set wow fadeIn" data-wow-delay=".4s">
+                </div> */}
+                {/* <div className="icon-set wow fadeIn" data-wow-delay=".4s">
                   <div className="work-card cd2">
                     <div className="icon-bg">
                       <img
@@ -1221,8 +1220,8 @@ function Index() {
                     </div>
                     <p>Digital Marketing</p>
                   </div>
-                </div>
-                <div className="icon-set wow fadeIn" data-wow-delay=".6s">
+                </div> */}
+                {/* <div className="icon-set wow fadeIn" data-wow-delay=".6s">
                   <div className="work-card cd3">
                     <div className="icon-bg">
                       <img
@@ -1232,8 +1231,8 @@ function Index() {
                     </div>
                     <p>Ecommerce Development</p>
                   </div>
-                </div>
-                <div className="icon-set wow fadeIn" data-wow-delay=".8s">
+                </div> */}
+                {/* <div className="icon-set wow fadeIn" data-wow-delay=".8s">
                   <div className="work-card cd4">
                     <div className="icon-bg">
                       <img
@@ -1243,7 +1242,7 @@ function Index() {
                     </div>
                     <p>Video Service</p>
                   </div>
-                </div>
+                </div> */}
                 <div className="icon-set wow fadeIn" data-wow-delay="1s">
                   <div className="work-card cd5">
                     <div className="icon-bg">
@@ -1252,7 +1251,7 @@ function Index() {
                         alt="Industries"
                       />
                     </div>
-                    <p>Banking Service</p>
+                    <p>Unlimited Design & Revision</p>
                   </div>
                 </div>
                 <div className="icon-set wow fadeIn" data-wow-delay="1.2s">
@@ -1263,7 +1262,7 @@ function Index() {
                         alt="Industries"
                       />
                     </div>
-                    <p>Enterprise Service</p>
+                    <p>Unlimited Brands</p>
                   </div>
                 </div>
                 <div className="icon-set wow fadeIn" data-wow-delay="1.4s">
@@ -1274,7 +1273,7 @@ function Index() {
                         alt="Industries"
                       />
                     </div>
-                    <p>Education Service</p>
+                    <p>Fast Turnarounds</p>
                   </div>
                 </div>
                 <div className="icon-set wow fadeIn" data-wow-delay="1.6s">
@@ -1285,7 +1284,7 @@ function Index() {
                         alt="Industries"
                       />
                     </div>
-                    <p>Tour and Travels</p>
+                    <p>Team Collaboration</p>
                   </div>
                 </div>
                 <div className="icon-set wow fadeIn" data-wow-delay="1.8s">
@@ -1296,7 +1295,7 @@ function Index() {
                         alt="Industries"
                       />
                     </div>
-                    <p>Health Service</p>
+                    <p>Own Every Design</p>
                   </div>
                 </div>
                 <div className="icon-set wow fadeIn" data-wow-delay="2s">
@@ -1307,7 +1306,7 @@ function Index() {
                         alt="Industries"
                       />
                     </div>
-                    <p>Event & Ticket</p>
+                    <p>No Contracts</p>
                   </div>
                 </div>
                 <div className="icon-set wow fadeIn" data-wow-delay="2.2s">
@@ -1318,7 +1317,7 @@ function Index() {
                         alt="Industries"
                       />
                     </div>
-                    <p>Restaurant Service</p>
+                    <p>No Hidden Costs</p>
                   </div>
                 </div>
                 <div className="icon-set wow fadeIn" data-wow-delay="2.4s">
@@ -1329,7 +1328,7 @@ function Index() {
                         alt="Industries"
                       />
                     </div>
-                    <p>Business Consultant</p>
+                    <p>Get Human Support</p>
                   </div>
                 </div>
               </div>
