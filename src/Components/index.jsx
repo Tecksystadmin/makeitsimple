@@ -221,10 +221,9 @@ function Index() {
               <div className="common-heading">
                 <span>We Are Creative Agency</span>
                 <h1 className="mb30">
-                  <span className="text-second">Top-rated</span> Web And Mobile
-                  App Development Company
+                HOW WE WORK
                 </h1>
-                <p>
+                {/* <p>
                   Lorem Ipsum is{" "}
                   <span className="text-radius text-light text-animation bg-b">
                     simply dummy
@@ -237,11 +236,11 @@ function Index() {
                   text of the printing and typesetting industry.{" "}
                   <span className="text-bold">Lorem Ipsum </span> is simply
                   dummy text of the printing and typesetting industry.
-                </p>
+                </p> */}
                 <h3 className="mt30 mb30">
-                  Big Ideas, creative people, new technology.
+                Process that Drives Results.
                 </h3>
-                <p>
+                {/* <p>
                   Lorem Ipsum is <span className="text-bold">simply dummy</span>{" "}
                   text of the printing and typesetting industry. Lorem Ipsum has
                   been the industry's specimen book. Lorem Ipsum is simply dummy
@@ -250,31 +249,30 @@ function Index() {
                   <span className="text-bold">Lorem Ipsum is simply</span> dummy
                   text of the printing and typesetting industry. is simply dummy
                   text of the printing and typesetting industry.{" "}
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
         </div>
       </section>
       <section className="service-section-prb pad-tb">
-        <div className="container">
-          <div className="row upset">
+        <div className="container-fluid">
+          <div className="row upset my-2`">
             <div
               data-tilt
               data-tilt-max="5"
               data-tilt-speed="1000"
-              className="col-lg-6-cus wow fadeInUp"
-              data-wow-delay=".2s"
-            >
+              className="col-lg-3 wow fadeInUp"
+              data-wow-delay=".2s">
+             
               <div className="service-sec-brp srvc-bg-nx bg-gradient13 text-w">
-                <h4 className="mb10">INTEGRATED SERVICES</h4>
+                <h4 className="mb10"><u>DISCUSS</u></h4>
                 <p>
-                  Lorem Ipsum is text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500.
+                We discuss the subject in detail, especially considering different ideas and opinions related to it. We drive the creation and development of all creative communication.
                 </p>
                 <a href="javascript:void(0)" className="mt20 link-prb">
-                  Learn More <i className="fas fa-chevron-right fa-icon"></i>
+                  Learn More 
+                  <i className="fas fa-chevron-right fa-icon"></i>
                 </a>
               </div>
             </div>
@@ -282,9 +280,62 @@ function Index() {
               data-tilt
               data-tilt-max="5"
               data-tilt-speed="1000"
+              className="col-lg-3 wow fadeInUp"
+              data-wow-delay=".2s">
+             
+              <div className="service-sec-brp srvc-bg-nx bg-gradient13 text-w">
+                <h4 className="mb10"><u>RIGHT PROCESS</u></h4>
+                <p>
+                We do an in-depth review of your current processes and will identify areas of inefficiency and recommend business processes that maximize the capabilities of your business management solution.
+                </p>
+                <a href="javascript:void(0)" className="mt20 link-prb">
+                  Learn More 
+                  <i className="fas fa-chevron-right fa-icon"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              data-tilt
+              data-tilt-max="5"
+              data-tilt-speed="1000"
+              className="col-lg-3 wow fadeInUp"
+              data-wow-delay=".2s">
+             
+              <div className="service-sec-brp srvc-bg-nx bg-gradient13 text-w">
+                <h4 className="mb10"><u>CLIENT FOCUS</u></h4>
+                <p>
+                By putting our-self in the customers' situations and viewing things from their perspective, that helps us better understand the customer and what is likely to form the right solution for their business.
+                </p>
+                <a href="javascript:void(0)" className="mt20 link-prb">
+                  Learn More 
+                  <i className="fas fa-chevron-right fa-icon"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              data-tilt
+              data-tilt-max="5"
+              data-tilt-speed="1000"
+              className="col-lg-3 wow fadeInUp"
+              data-wow-delay=".2s">
+             
+              <div className="service-sec-brp srvc-bg-nx bg-gradient13 text-w">
+                <h4 className="mb10"><u> CUSTOMER SATISFACTION </u></h4>
+                <p>
+                We Develop Customer Service Communities that Offer Proactive Customer Service and Treat Customers Like they Want to Be Treated.
+                </p>
+                <a href="javascript:void(0)" className="mt20 link-prb">
+                  Learn More 
+                  <i className="fas fa-chevron-right fa-icon"></i>
+                </a>
+              </div>
+            </div>
+            {/* <div
+              data-tilt
+              data-tilt-max="5"
+              data-tilt-speed="1000"
               className="col-lg-3-cus wow fadeInUp"
-              data-wow-delay=".4s"
-            >
+              data-wow-delay=".4s">
               <div className="service-sec-list srvc-bg-nx srcl1">
                 <img
                   src="./assets/images/icons/development.svg"
@@ -449,7 +500,7 @@ function Index() {
                   since the 1500.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="-cta-btn mt70">
             <div
@@ -1471,8 +1522,8 @@ function Index() {
                         <img
                           src="images/user-thumb/girl.jpg"
                           alt="girl"
-                          class="img-fluid"
-                        />
+                          class="img-fluid"/>
+                          
                       </div>
                       <div class="media-body user-info">
                         <h5>Mathilda Burns</h5>
@@ -1536,7 +1587,7 @@ function Index() {
           </div>
         </div>
       </section>
-      <section className="cta-area pad-tb">
+      {/* <section className="cta-area pad-tb">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
@@ -1550,7 +1601,7 @@ function Index() {
                 <p className="cta-call">
                   Or call us now{" "}
                   <a href="tel:+1234567890">
-                    <i className="fas fa-phone-alt"></i> (123) 456 7890
+                    <i className="fas fa-phone-alt"></i>+918957848236
                   </a>
                 </p>
               </div>
@@ -1583,8 +1634,7 @@ function Index() {
           <div className="row justify-content-center upset shape-numm">
             <div
               className="col-lg-4 col-sm-6 shape-loc wow fadeInUp"
-              data-wow-delay=".2s"
-            >
+              data-wow-delay=".2s">
               <div className="office-card">
                 <div
                   className="skyline-img"
@@ -1736,7 +1786,7 @@ function Index() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </div>
   );

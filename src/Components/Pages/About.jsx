@@ -1,5 +1,25 @@
+import {useEffect,useState} from 'react';
+import axios, { Axios } from 'axios';
+
+
 function About() {
+	const [about, setAbout] = useState('');
+
+	useEffect(()=>{
+		axios.get('http://localhost:8000/v1/about').then(res=>{
+			console.log(res.data);
+			setAbout(res.data);
+		}).catch(err=>{
+			console.log(err);
+		})
+	},[]);
+	console.log(about);
+
+
+
+
   return (
+	
     <>
       <section
         class="breadcrumb-area banner-1"
@@ -46,8 +66,11 @@ function About() {
             <div class="col-lg-6">
               <div class="common-heading text-l ">
                 <span>About Us</span>
-                <h2>MAKE IT SIMPLE</h2>
+                <h2>{
+						about.aboutTitle
+					}</h2>
                 <p>
+				{about.aboutDescription}
 				Make It Simple, is an online marketplace for design & development services. Serving with quality is our constant goal to achieve. Working with Make It Simple, You can hustle free with all your digital design services.
                 </p>
                 <p>

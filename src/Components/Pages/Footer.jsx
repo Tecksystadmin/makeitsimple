@@ -71,12 +71,12 @@ function Footer() {
                       Email{" "}
                       <span>
                         {" "}
-                        <a href="https://separateweb.com/cdn-cgi/l/email-protection#f891969e97b89a8d8b91969d8b8b9699959dd69b9795">
+                        <a href="mailto:text@mail.com">
                           <span
                             className="__cf_email__"
                             data-cfemail="80e9eee6efc0e2f5f3e9eee5f3f3eee1ede5aee3efed"
                           >
-                            [email&#160;protected]
+                            [support@makeitsimple.net.in]
                           </span>
                         </a>
                       </span>
@@ -90,7 +90,7 @@ function Footer() {
                       Phone{" "}
                       <span>
                         {" "}
-                        <a href="tel:+10000000000">+1 0000 000 000</a>
+                        <a href="+918957848236">+91 8957848236</a>
                       </span>
                     </p>
                   </li>
@@ -99,7 +99,11 @@ function Footer() {
                       <i className="fas fa-map-marker-alt"></i>
                     </span>
                     <p>
-                      Address <span> 123 Business Centre London SW1A 1AA</span>
+                      Address{" "}
+                      <span> {" "}
+                        OPS Nagar, Kalindipuram, Prayagraj, Uttar Pradesh,
+                        211011
+                      </span>
                     </p>
                   </li>
                 </ul>
@@ -276,48 +280,87 @@ function Footer() {
             </div>
           </div>
         </div>
-
       </footer>
       <div className="modal leadpopup" id="leadModal">
-   <div className="modal-dialog modal-dialog-centered">
-     <div className="modal-content">      
-       <div className="modal-body">
-         <div className="innerbody">
-           <div className="innerleft">
-            <div className="leadbtnclose"> <button type="button" className="btn-close" data-bs-dismiss="modal"></button></div>
-              <h3>Build Your App in just 2 Weeks</h3>
-              <p className="mt10">Leave your details and one of our experts will contact you soon</p>             
-               <div className="form-block mt20">
-                  <form action="#" id="quotes-form" method="post">
-                     <div className="fieldsets row">
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content">
+            <div className="modal-body">
+              <div className="innerbody">
+                <div className="innerleft">
+                  <div className="leadbtnclose">
+                    {" "}
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                    ></button>
+                  </div>
+                  <h3>Build Your App in just 2 Weeks</h3>
+                  <p className="mt10">
+                    Leave your details and one of our experts will contact you
+                    soon
+                  </p>
+                  <div className="form-block mt20">
+                    <form action="#" id="quotes-form" method="post">
+                      <div className="fieldsets row">
                         <div className="col-md-12 form-group floating-label">
-                           <input type="text" placeholder=" " required="required" className="floating-input"/>
-                           <label>Full Name*</label>
+                          <input
+                            type="text"
+                            placeholder=" "
+                            required="required"
+                            className="floating-input"
+                          />
+                          <label>Full Name*</label>
                         </div>
                         <div className="col-md-12 form-group floating-label">
-                           <input type="email" placeholder=" " required="required" className="floating-input"/>
-                           <label>Email Address*</label>
+                          <input
+                            type="email"
+                            placeholder=" "
+                            required="required"
+                            className="floating-input"
+                          />
+                          <label>Email Address*</label>
                         </div>
-                     </div>
-                     <div className="fieldsets row">
+                      </div>
+                      <div className="fieldsets row">
                         <div className="col-md-12 form-group floating-label">
-                           <input type="tel" placeholder=" " required="required" className="floating-input"/>
-                           <label>Mobile Number*</label>
-                        </div>                        
-                     </div>
-                     <div className="fieldsets mt20"> <button type="submit" name="submit" className="lnk btn-main bg-btn">Submit <i className="fas fa-chevron-right fa-icon"></i><span className="circle"></span></button> </div>
-                     <p className="trm"><i className="fas fa-lock"></i>We hate spam, and we respect your privacy.</p>
-                  </form>
-               </div>              
-           </div>
-           <div class="innerright" data-background="./assets/images/service/mockup-app.jpg"></div>
-         </div>         
-       </div>      
-     </div>
-   </div>
- </div>
-
-      
+                          <input
+                            type="tel"
+                            placeholder=" "
+                            required="required"
+                            className="floating-input"
+                          />
+                          <label>Mobile Number*</label>
+                        </div>
+                      </div>
+                      <div className="fieldsets mt20">
+                        {" "}
+                        <button
+                          type="submit"
+                          name="submit"
+                          className="lnk btn-main bg-btn"
+                        >
+                          Submit{" "}
+                          <i className="fas fa-chevron-right fa-icon"></i>
+                          <span className="circle"></span>
+                        </button>{" "}
+                      </div>
+                      <p className="trm">
+                        <i className="fas fa-lock"></i>We hate spam, and we
+                        respect your privacy.
+                      </p>
+                    </form>
+                  </div>
+                </div>
+                <div
+                  class="innerright"
+                  data-background="./assets/images/service/mockup-app.jpg"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
