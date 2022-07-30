@@ -1,18 +1,16 @@
 import React from "react";
 import About from "./About"
 import Price from "./Price";
-import Testonomial from "./Testonimial";
+import Testonomial from "./Testimonial";
 import Portfolio from "./Portfolio";
+import {Link} from 'react-router-dom';
 
 function Header() {
   return (
     <div>
 
-      <About/>
-      <Price/>
-      <Testonomial/>
-      <Portfolio/>
-      
+     
+
       <header className="header-pr nav-bg-b main-header navfix fixed-top menu-white">
         <div className="container-fluid m-pad">
           <div className="menu-header">
@@ -33,9 +31,9 @@ function Header() {
             <div className="custom-nav" role="navigation">
               <ul className="nav-list">
                 <li className="sbmenu">
-                  <a href="#." className="menu-links">
+                  <Link to="/" className="menu-links">
                     Home
-                  </a>
+                  </Link>
                   <div className="nx-dropdown">
                     <div className="sub-menu-section">
                       <div className="container">
@@ -239,15 +237,15 @@ function Header() {
                   </div>
                 </li>
                 <li className="sbmenu">
-                  <a href="#." className="menu-links">
+                  <Link to="/about" className="menu-links">
                     About
-                  </a>
+                  </Link>
                  
                 </li>
                 <li className="sbmenu">
-                  <a href="#" className="menu-links">
-                    Pages
-                  </a>
+                  <Link to="/Price" className="menu-links">
+                    Price
+                  </Link>
                   <div className="nx-dropdown">
                     <div className="sub-menu-section">
                       <div className="container">
@@ -358,9 +356,9 @@ function Header() {
                   </div>
                 </li>
                 <li className="sbmenu">
-                  <a href="#" className="menu-links">
-                    Shortcodes
-                  </a>
+                  <Link to="/Testimonial" className="menu-links">
+                    Testimonial
+                  </Link>
                   <div className="nx-dropdown">
                     <div className="sub-menu-section">
                       <div className="container">
@@ -444,9 +442,9 @@ function Header() {
                   </div>
                 </li>
                 <li className="sbmenu rpdropdown">
-                  <a href="#" className="menu-links">
+                  <Link to="Portfolio" className="menu-links">
                     Portfolio
-                  </a>
+                  </Link>
                   <div className="nx-dropdown menu-dorpdown">
                     <div className="sub-menu-section">
                       <div className="sub-menu-center-block">
@@ -562,7 +560,7 @@ function Header() {
           <nav id="main-nav">
             <ul className="first-nav">
               <li>
-                <a href="#">Home</a>
+                <a href="#" font-color="black">Home</a>
                 <ul>
                   <li>
                     <a href="#">Multi-Page Demo</a>

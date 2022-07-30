@@ -11,7 +11,7 @@ function Index() {
        <Header />
       <Sidebar />
       
-      <div id="progress-bar"></div>
+      {/* <div id="progress-bar"></div>
       <div className="onloadpage" id="page_loader">
         <div className="pre-content">
           <div className="logo-pre">
@@ -27,7 +27,7 @@ function Index() {
           </div>
         </div>
       </div>
-     
+      */}
       <section className="hero-card-web bg-gradient12 shape-bg3">
         <div className="hero-main-rp container-fluid">
           <div className="row">
@@ -41,18 +41,33 @@ function Index() {
                 <p className="wow fadeIn" data-wow-delay="0.6s">
                 One Graphic & Video Free for our New Clients 
                 </p>
+              
                 <a
                   href="case-study.html"
                   className="niwax-btn2 wow fadeIn"
-                  data-wow-delay="0.8s"
-                >
-                  View Case Studies{" "}
+                  data-wow-delay="0.8s" >
+                  Download Brochure{" "}
                   <i className="fas fa-chevron-right fa-ani"></i>
                 </a>
+                <a
+                  href="case-study.html"
+                  className="niwax-btn2 wow fadeIn"
+                  data-wow-delay="0.8s" >
+                   Schedule demo{" "}
+                  <i className="fas fa-chevron-right fa-ani"></i>
+                </a>
+
+                <a
+                  href="case-study.html"
+                  className="niwax-btn2 wow fadeIn"
+                  data-wow-delay="0.8s" >
+                   Video{" "}
+                  <i className="fas fa-chevron-right fa-ani"></i>
+                </a>
+
                 <div
                   className="awards-block-tt  wow fadeIn"
-                  data-wow-delay="1s"
-                >
+                  data-wow-delay="1s">
                   <img
                     src="./assets/images/hero/awards-logo.png"
                     alt="awards-logo"
@@ -791,9 +806,8 @@ function Index() {
           </div>
           <div className="row">
             <div
-              className="col-lg-8 col-sm-8 mt60 wow fadeInUp"
-              data-wow-delay="0.2s"
-            >
+              className="col-lg-3 col-sm-8 mt60 wow fadeInUp"
+              data-wow-delay="0.2s"  >
               <div className="isotope_item hover-scale">
                 <div
                   className="item-image"
@@ -818,7 +832,7 @@ function Index() {
               </div>
             </div>
             <div
-              className="col-lg-4 col-sm-4 mt60 wow fadeInUp"
+              className="col-lg-3 col-sm-4 mt60 wow fadeInUp"
               data-wow-delay="0.4s"
             >
               <div className="isotope_item hover-scale">
@@ -826,8 +840,7 @@ function Index() {
                   className="item-image"
                   data-tilt
                   data-tilt-max="2"
-                  data-tilt-speed="1000"
-                >
+                  data-tilt-speed="1000">
                   <a href="#">
                     <img
                       src="./assets/images/portfolio/image-1.jpg"
@@ -845,7 +858,7 @@ function Index() {
               </div>
             </div>
             <div
-              className="col-lg-4 col-sm-4 mt60 wow fadeInUp"
+              className="col-lg-3 col-sm-4 mt60 wow fadeInUp"
               data-wow-delay="0.6s"
             >
               <div className="isotope_item hover-scale">
@@ -872,7 +885,7 @@ function Index() {
               </div>
             </div>
             <div
-              className="col-lg-8 col-sm-8 mt60 wow fadeInUp"
+              className="col-lg-3 col-sm-8 mt60 wow fadeInUp"
               data-wow-delay="0.8s"
             >
               <div className="isotope_item hover-scale">
@@ -904,7 +917,7 @@ function Index() {
       <section className="clients-section- bg-gradient15 pad-tb">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-3">
               <div className="common-heading">
                 <span>Our happy customers</span>
                 <h2 className="mb30">Some of our Clients</h2>
@@ -1523,7 +1536,7 @@ function Index() {
                           src="images/user-thumb/girl.jpg"
                           alt="girl"
                           class="img-fluid"/>
-                          
+
                       </div>
                       <div class="media-body user-info">
                         <h5>Mathilda Burns</h5>

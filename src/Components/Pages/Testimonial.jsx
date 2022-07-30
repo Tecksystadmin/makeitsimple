@@ -1,4 +1,4 @@
-function Testonomial(){
+function Testimonial(){
     return (
         <>
              <section class="reviews-block bg-gradient5 pad-tb">
@@ -101,4 +101,4 @@ function Testonomial(){
     );
 }
 
-export default Testonomial;
+export default Testimonial;
