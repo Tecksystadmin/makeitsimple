@@ -65,6 +65,7 @@ function About() {
             </div>
             <div class="col-lg-6">
               <div class="common-heading text-l ">
+			  <span><b>We Are Creative Agency</b></span>
                 <span>About Us</span>
                 <h2>{
 						about.aboutTitle
