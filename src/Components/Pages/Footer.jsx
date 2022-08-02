@@ -1,9 +1,10 @@
 import React from "react";
+import mis from '../images/white-logo.png';
 
 function Footer() {
   return (
     <div>
-      <footer>
+      <footer className="m-5">
         <div className="footer-row1">
           <div className="container">
             <div className="row">
@@ -44,18 +45,17 @@ function Footer() {
               <div className="col-lg-3 col-sm-6  ftr-brand-pp">
                 <a className="navbar-brand mt30 mb25 f-dark-logo" href="#">
                   {" "}
-                  <img src="images/logo.png" alt="Logo" />
+                  <img src={mis} alt="Logo" />
                 </a>
                 <a className="navbar-brand mt30 mb25 f-white-logo" href="#">
                   {" "}
                   <img src="images/white-logo.png" alt="Logo" />
                 </a>
                 <p>
-                  News letter dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt. Enter your email
+                Make It Simple, is an online marketplace for design & development services. Serving with quality is our constant goal to achieve. Working with Make It Simple, You can hustle free with all your digital design services.
                 </p>
-                <a href="#" className="btn-main bg-btn3 lnk mt20">
-                  Become Partner{" "}
+                <a href="/about" className="btn-main bg-btn3 lnk mt20">
+                  Know More{" "}
                   <i className="fas fa-chevron-right fa-icon"></i>
                   <span className="circle"></span>
                 </a>
@@ -181,6 +181,7 @@ function Footer() {
             </div>
           </div>
         </div>
+
         <div className="footer-brands">
           <div className="container">
             <div className="row">
@@ -251,27 +252,14 @@ function Footer() {
                     <a href="javascript:void(0)" target="blank">
                       <i className="fab fa-youtube"></i>
                     </a>
-                    <a href="javascript:void(0)" target="blank">
-                      <i className="fab fa-pinterest-p"></i>
-                    </a>
-                    <a href="javascript:void(0)" target="blank">
-                      <i className="fab fa-vimeo-v"></i>
-                    </a>
-                    <a href="javascript:void(0)" target="blank">
-                      <i className="fab fa-dribbble"></i>
-                    </a>
-                    <a href="javascript:void(0)" target="blank">
-                      <i className="fab fa-behance"></i>
-                    </a>
                   </div>
                   <div className="footer-">
-                    <p>
-                      © 2020-2022. All Rights Reserved By{" "}
+                    <p  style={{fontSize:"x-large"}} >
+                      Private Policy / Terms & Condition. © 2021{" "}
                       <a
                         href="https://themeforest.net/user/rajesh-doot/portfolio"
                         target="blank"
                       >
-                        Rajesh Doot
                       </a>
                     </p>
                   </div>

@@ -1,5 +1,6 @@
 import {useEffect,useState} from 'react';
 import axios, { Axios } from 'axios';
+import {ImArrowRight} from "react-icons/im";
 
 
 function About() {
@@ -109,6 +110,33 @@ function About() {
           </div>
         </div>
       </section>
+      <div class="bread-title">
+                    <h2  style={{textAlign: "center"}} >Why Us</h2>
+       </div>
+       <h2 style={{fontSize:"x-large", marginLeft:"30px"}}> 
+        <br/>
+         We are your partner in your success 
+       </h2>
+
+       <ul style={{marginLeft:"50px"}} >
+        <li class="m-2">
+          <ImArrowRight />  Executive experts that produce effortless expertise.
+        </li>
+        <li class="m-2">
+        <ImArrowRight/> Enriched outcomes empower by experience professional
+        </li>
+        <li class="m-2">
+        <ImArrowRight/> Visionary approach to meet your conceptual ideas
+        </li>
+        <li class="m-2">
+        <ImArrowRight/> Intense marketing research develops valuable insights 
+        </li>
+       </ul >
+       <div class="m-2">
+      <section>
+        
+      </section>
+      </div>
     </>
   );
 }
