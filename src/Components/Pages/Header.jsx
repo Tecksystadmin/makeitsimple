@@ -75,10 +75,10 @@ function Header() {
                 </li>
                 <li className="hidemobile">
                   <a
-                    href="get-quote.html"
+                    href="/ContactUs"
                     className="btn-br bg-btn3 btshad-b2 lnk"
                   >
-                    Request A Quote <span className="circle"></span>
+                    Book a call<span className="circle"></span>
                   </a>
                 </li>
                 <li className="hidedesktop darkmodeswitch">

@@ -1,6 +1,48 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 function ContactUs() {
+  
+  const [fullName, setFullName] = useState('');
+  const [message, setMessage] = useState('');
+  const [mobileNo, setMobileNo] = useState('');
+  const [emailAddress, setemailAddress] = useState('');
+
+  const handleSubmit = () => {
+
+    console.log(fullName, emailAddress)
+    let data = {
+      fullName: fullName,
+      emailAddress: emailAddress,
+      message: message,
+      mobileNo: mobileNo
+    };
+    axios.post('http://localhost:8000/v1/form/', data).then(res => {
+      console.log(res.data);
+      setFullName('');
+      setMessage('');
+      setMobileNo('');
+      setemailAddress('');
+
+    }).catch(err => {
+      console.log(err);
+    })
+
+    console.log(data);
+
+  }
+  const handleFullNameChange = event => {
+    setFullName(event.target.value)
+  };
+  const handleEmailAddressChange = event => {
+    setemailAddress(event.target.value)
+  };
+  const handleMessageChange = event => {
+    setMessage(event.target.value)
+  };
+  const handleMobileNoChange = event => {
+    setMobileNo(event.target.value)
+  };
   return (
     <>
       <section class="breadcrumb-area banner-3">
@@ -19,119 +61,131 @@ function ContactUs() {
         </div>
       </section>
       <section>
-        <div className="row" style={{marginLeft:"80px"}}>
-            <div className="col-md-5">
-               
-                <ul className="footer-address-list ftr-details" style={{margin:"80px"}}>
-                    <li>
-                    <span>
-                        <i className="fas fa-envelope"></i>
-                    </span>
-                    <p >
-                        Email{" "}
-                        <span>
-                        {" "}
-                        <a href="mailto:text@mail.com">
-                            <span
-                            className="__cf_email__"
-                            data-cfemail="80e9eee6efc0e2f5f3e9eee5f3f3eee1ede5aee3efed"
-                            >
-                            [support@makeitsimple.net.in]
-                            </span>
-                        </a>
-                        </span>
-                    </p>
-                    </li>
-                    <li>
-                    <span>
-                        <i className="fas fa-phone-alt"></i>
-                    </span>
-                    <p>
-                        Phone{" "}
-                        <span>
-                        {" "}
-                        <a href="+918957848236">+91 8957848236</a>
-                        </span>
-                    </p>
-                    </li>
-                    <li>
-                    <span>
-                        <i className="fas fa-map-marker-alt"></i>
-                    </span>
-                    <p>
-                        Address{" "}
-                        <span>
-                        {" "}
-                        OPS Nagar, Kalindipuram, Prayagraj, Uttar Pradesh, 211011
-                        </span>
-                    </p>
-                    </li>
-                </ul>
-            </div>
-            <div className="col-md-6" style={{marginTop:"80px"}}>
-          <h5>Get In Touch</h5>
-          <div className="form-block mt20">
-                    <form action="#" id="quotes-form" method="post">
-                      <div className="fieldsets row">
-                        <div className="col-md-12 form-group floating-label">
-                          <input
-                            type="text"
-                            placeholder=" "
-                            required="required"
-                            className="floating-input"
-                          />
-                          <label>Full Name*</label>
-                        </div>
-                        <div className="col-md-12 form-group floating-label">
-                          <input
-                            type="email"
-                            placeholder=" "
-                            required="required"
-                            className="floating-input"
-                          />
-                          <label>Email Address*</label>
-                        </div>
-                        <div className="col-md-12 form-group floating-label">
-                          <input
-                            type="email"
-                            placeholder=" "
-                            required="required"
-                            className="floating-input"
-                          />
-                          <label>Message</label>
-                        </div>
-                      </div>
-                      
-                      <div className="fieldsets row">
-                        <div className="col-md-12 form-group floating-label">
-                          <input
-                            type="tel"
-                            placeholder=" "
-                            required="required"
-                            className="floating-input"
-                          />
-                          <label>Mobile Number*</label>
-                        </div>
-                      </div>
-                      <div className="fieldsets mt20">
-                        {" "}
-                        <button
-                          type="submit"
-                          name="submit"
-                          className="lnk btn-main bg-btn"
-                        >
-                          Submit{" "}
-                          <i className="fas fa-chevron-right fa-icon"></i>
-                          <span className="circle"></span>
-                        </button>{" "}
-                      </div>
-                      <p className="trm">
-                        <i className="fas fa-lock"></i>We hate spam, and we
-                        respect your privacy.
-                      </p>
-                    </form>
+        <div className="row" style={{ marginLeft: "80px" }}>
+          <div className="col-md-5">
+
+            <ul className="footer-address-list ftr-details" style={{ margin: "80px" }}>
+              <li>
+                <span>
+                  <i className="fas fa-envelope"></i>
+                </span>
+                <p >
+                  Email{" "}
+                  <span>
+                    {" "}
+                    <a href="mailto:text@mail.com">
+                      <span
+                        className="__cf_email__"
+                        data-cfemail="80e9eee6efc0e2f5f3e9eee5f3f3eee1ede5aee3efed"
+                      >
+                        [support@makeitsimple.net.in]
+                      </span>
+                    </a>
+                  </span>
+                </p>
+              </li>
+              <li>
+                <span>
+                  <i className="fas fa-phone-alt"></i>
+                </span>
+                <p>
+                  Phone{" "}
+                  <span>
+                    {" "}
+                    <a href="+918957848236">+91 8957848236</a>
+                  </span>
+                </p>
+              </li>
+              <li>
+                <span>
+                  <i className="fas fa-map-marker-alt"></i>
+                </span>
+                <p>
+                  Address{" "}
+                  <span>
+                    {" "}
+                    OPS Nagar, Kalindipuram, Prayagraj, Uttar Pradesh, 211011
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-6" style={{ marginTop: "80px" }}>
+            <h5>Get In Touch</h5>
+            <div className="form-block mt20">
+              <form action="#" id="quotes-form" method="post">
+                <div className="fieldsets row">
+                  <div className="col-md-12 form-group floating-label">
+                    <input
+                      type="text"
+                      placeholder=" "
+                      required="required"
+                      className="floating-input"
+                      name="name"
+                      value={fullName}
+                      onChange={handleFullNameChange}
+                    />
+                    <label>Full Name*</label>
                   </div>
-          {/* <ul className="footer-address-list link-hover">
+                  <div className="col-md-12 form-group floating-label">
+                    <input
+                      type="text"
+                      placeholder=" "
+                      required="required"
+                      className="floating-input"
+                      name="name"
+                      value={emailAddress}
+                      onChange={handleEmailAddressChange}
+                    />
+                    <label>Email Address*</label>
+                  </div>
+                  <div className="col-md-12 form-group floating-label">
+                    <input
+                      type="text"
+                      placeholder=" "
+                      required="required"
+                      className="floating-input"
+                      name="name"
+                      value={message}
+                      onChange={handleMessageChange}
+                    />
+                    <label>Message</label>
+                  </div>
+                </div>
+
+                <div className="fieldsets row">
+                  <div className="col-md-12 form-group floating-label">
+                    <input
+                      type="text"
+                      placeholder=" "
+                      required="required"
+                      className="floating-input"
+                      name="name"
+                      value={mobileNo}
+                      onChange={handleMobileNoChange}
+                    />
+                    <label>Mobile Number*</label>
+                  </div>
+                </div>
+                <div className="fieldsets mt20">
+                  {" "}
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    onClick={handleSubmit}
+                  >
+                    Submit{" "}
+                    <i className="fas fa-chevron-right fa-icon"></i>
+                    <span className="circle"></span>
+                  </button>{" "}
+                </div>
+                <p className="trm">
+                  <i className="fas fa-lock"></i>We hate spam, and we
+                  respect your privacy.
+                </p>
+              </form>
+            </div>
+            {/* <ul className="footer-address-list link-hover">
             <li>
               <a href="get-quote.html">Contact</a>
             </li>
@@ -151,9 +205,9 @@ function ContactUs() {
               <a href="javascript:void(0)">License & Copyright</a>
             </li>
           </ul> */}
+          </div>
         </div>
-        </div>
-        
+
       </section>
 
       {/* <section class="pricing-block pad-tb">
