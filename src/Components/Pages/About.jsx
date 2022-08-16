@@ -5,6 +5,7 @@ import {ImArrowRight} from "react-icons/im";
 
 function About() {
 	const [about, setAbout] = useState('');
+  // const [emil,setEmail] = useState('ayush@gmail.com');
 
 	useEffect(()=>{
 		axios.get('http://localhost:8000/v1/about').then(res=>{

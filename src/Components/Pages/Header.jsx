@@ -7,6 +7,7 @@ import {Link} from 'react-router-dom';
 import mis from '../images/white-logo.png';
 
 function Header() {
+  
   return (
     <div>
 
@@ -52,7 +53,7 @@ function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/Portfolio" className="menu-links">
+                <Link to="/Portfolio" className="menu-links">
                     Portfolio
                   </Link>
                 </li>

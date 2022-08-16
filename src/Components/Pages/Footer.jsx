@@ -1,5 +1,6 @@
 import React from "react";
 import mis from '../images/white-logo.png';
+import {Link} from 'react-router-dom';
 
 function Footer() {
   return (
@@ -61,7 +62,7 @@ function Footer() {
                 </a>
               </div>
               <div className="col-lg-3 col-sm-6">
-                <h5>Contact Us</h5>
+                <h5><b>Contact Us</b></h5>
                 <ul className="footer-address-list ftr-details">
                   <li>
                     <span>
@@ -109,128 +110,46 @@ function Footer() {
                 </ul>
               </div>
               <div className="col-lg-2 col-sm-6">
-                <h5>Company</h5>
+                <h5><b>Company</b></h5>
                 <ul className="footer-address-list link-hover">
                   <li>
-                    <a href="get-quote.html">Contact</a>
+                  <Link to="/" className="menu-links">
+                    Home
+                  </Link>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Customer's FAQ</a>
+                  <Link to={"/about"}>
+                    About
+                  </Link>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Refund Policy</a>
+                  <Link to={"/Price"} >
+                    Price
+                  </Link>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Privacy Policy</a>
+                  <Link to={"/Testimonial"}>
+                    Testimonial
+                  </Link>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Terms and Conditions</a>
+                  <Link to={"/Portfolio"}>
+                    Portfolio
+                  </Link>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">License & Copyright</a>
+                  <Link to={"/ContactUs"}>
+                    Contact Us
+                  </Link>
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-4 col-sm-6 footer-blog-">
-                <h5>Latest Blogs</h5>
-                <div className="single-blog-">
-                  <div className="post-thumb">
-                    <a href="#">
-                      <img
-                        src="./assets/images/blog/blog-small.jpg"
-                        alt="blog"
-                      />
-                    </a>
-                  </div>
-                  <div className="content">
-                    <p className="post-meta">
-                      <span className="post-date">
-                        <i className="far fa-clock"></i>April 15, 2020
-                      </span>
-                    </p>
-                    <h4 className="title">
-                      <a href="https://separateweb.com/">
-                        We Provide you Best &amp; Creative Consulting Service
-                      </a>
-                    </h4>
-                  </div>
-                </div>
-                <div className="single-blog-">
-                  <div className="post-thumb">
-                    <a href="#">
-                      <img
-                        src="./assets/images/blog/blog-small.jpg"
-                        alt="blog"
-                      />
-                    </a>
-                  </div>
-                  <div className="content">
-                    <p className="post-meta">
-                      <span className="post-date">
-                        <i className="far fa-clock"></i>April 15, 2020
-                      </span>
-                    </p>
-                    <h4 className="title">
-                      <a href="https://separateweb.com/">
-                        We Provide you Best &amp; Creative Consulting Service
-                      </a>
-                    </h4>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
 
-        <div className="footer-brands">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-4 v-center">
-                <h5 className="mb10">Top App Development Companies</h5>
-                <p>
-                  News letter dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt. Enter your email
-                </p>
-              </div>
-              <div className="col-lg-8 v-center">
-                <ul className="footer-badges-">
-                  <li>
-                    <a href="#">
-                      <img
-                        src="./assets/images/about/badges-a.png"
-                        alt="badges"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img
-                        src="./assets/images/about/badges-b.png"
-                        alt="badges"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img
-                        src="./assets/images/about/badges-c.png"
-                        alt="badges"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img
-                        src="./assets/images/about/badges-d.png"
-                        alt="badges"
-                      />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+    
         <div className="footer-row3">
           <div className="copyright">
             <div className="container">
