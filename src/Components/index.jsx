@@ -350,7 +350,7 @@ function Index() {
         </div>
       </section>
 
-    <section>  
+    {/* <section>  
         <div className="-cta-btn mt70">
             <div
               className="free-cta-title v-center zoomInDown wow"
@@ -501,10 +501,10 @@ function Index() {
               </div>
             </div>
           </div>
-    </section>
+    </section> */}
 
                {/* why chosse us */}
-    <section className="why-choos-lg pad-tb deep-dark">
+    {/* <section className="why-choos-lg pad-tb deep-dark">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -630,7 +630,7 @@ function Index() {
             </div>
           </div>
         </div>
-      </section>  
+      </section>   */}
       <section className="about-sec-rpb pad-tb">
         <div className="container">
           <div className="row justify-content-center text-center">
@@ -937,7 +937,7 @@ function Index() {
       </section>
 
            {/* happy customers */}
-      <section className="clients-section- bg-gradient15 pad-tb">
+      {/* <section className="clients-section- bg-gradient15 pad-tb">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3">
@@ -1190,7 +1190,7 @@ function Index() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
               {/* our perks */}
       <section className="work-category pad-tb">
         <div className="container">
@@ -1346,7 +1346,7 @@ function Index() {
           </div>
         </div>
       </section>
-      <section className="testinomial-section bg-none pad-tb">
+      {/* <section className="testinomial-section bg-none pad-tb">
         <div className="container">
           <div className="row justify-content-center ">
             <div className="col-lg-8">
@@ -1545,10 +1545,10 @@ function Index() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
      
         {/* LOCATION */}
-      <section className="our-office pad-tb">
+      {/* <section className="our-office pad-tb">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
@@ -1713,7 +1713,7 @@ function Index() {
             </div>
           </div>
         </div>
-      </section> 
+      </section>  */}
     </div>
   );
 }
