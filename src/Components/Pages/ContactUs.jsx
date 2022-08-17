@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import swal from 'sweetalert';
 
 function ContactUs() {
   
@@ -17,8 +18,14 @@ function ContactUs() {
       message: message,
       mobileNo: mobileNo
     };
+    
     axios.post('http://localhost:8000/v1/form/', data).then(res => {
       console.log(res.data);
+      swal({
+        title: "Thank you!",
+        text: "We will contact you soon.",
+        icon: "success",
+    });
       setFullName('');
       setMessage('');
       setMobileNo('');
@@ -26,6 +33,11 @@ function ContactUs() {
 
     }).catch(err => {
       console.log(err);
+      swal({
+        title: "Oops!!",
+        text: "Some issue occured. Try again sometime!!",
+        icon: "warning",
+    });
     })
 
     console.log(data);
