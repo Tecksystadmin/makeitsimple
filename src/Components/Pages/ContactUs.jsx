@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import swal from 'sweetalert';
+import swal from "sweetalert";
 
 function ContactUs() {
   
@@ -8,6 +8,8 @@ function ContactUs() {
   const [message, setMessage] = useState('');
   const [mobileNo, setMobileNo] = useState('');
   const [emailAddress, setemailAddress] = useState('');
+
+  swal("Hello world!");
 
   const handleSubmit = () => {
 

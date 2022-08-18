@@ -33,34 +33,34 @@ function Header() {
             <div className="custom-nav" role="navigation">
               <ul className="nav-list">
                 <li>
-                  <Link to="/" className="menu-links">
+                  <a href="/" className="menu-links">
                     Home
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/about" className="menu-links">
+                  <a href="/about" className="menu-links">
                     About
-                  </Link>  
+                  </a>  
                 </li>
                 <li>
-                  <Link to="/Price" className="menu-links">
+                  <a href="/Price" className="menu-links">
                     Price
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/Testimonial" className="menu-links">
+                  <a href="/Testimonial" className="menu-links">
                     Testimonial
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                <Link to="/Portfolio" className="menu-links">
+                <a href="/Portfolio" className="menu-links">
                     Portfolio
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/ContactUs" className="menu-links">
+                  <a href="/ContactUs" className="menu-links">
                     Contact Us
-                  </Link>
+                  </a>
                 </li>
               </ul>
 
@@ -108,7 +108,7 @@ function Header() {
               </ul>
             </div>
           </div>
-          <nav id="main-nav">
+          {/* <nav id="main-nav">
             <ul className="first-nav">
               <li>
                 <a href="#" font-color="black">Home</a>
@@ -469,7 +469,7 @@ function Header() {
                 </a>
               </li>
             </ul>
-          </nav>
+          </nav> */}
         </div>
       </header>
     </div>
