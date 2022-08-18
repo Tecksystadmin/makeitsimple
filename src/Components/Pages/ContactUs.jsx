@@ -11,8 +11,6 @@ function ContactUs() {
   const [mobileNo, setMobileNo] = useState('');
   const [emailAddress, setemailAddress] = useState('');
 
-  swal("Hello world!");
-
   const handleSubmit = () => {
 
     console.log(fullName, emailAddress)

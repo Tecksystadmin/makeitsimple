@@ -15,11 +15,7 @@
     "react-scripts": "5.0.1",
     "react-swal": "^4.0.0",
     "save": "^2.5.0",
-<<<<<<< HEAD
-    "sweetalert2": "^11.4.28",
-=======
     "sweetalert": "^2.1.2",
->>>>>>> 77b84fe7d652243d024e6f56bec1d320502bef17
     "web-vitals": "^2.1.4"
   },
   "scripts": {
