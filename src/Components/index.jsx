@@ -1,8 +1,10 @@
 import React from "react";
 import Header from "./Pages/Header";
 import Sidebar from "./Pages/Sidebar";
+import swal from 'sweetalert';
 
 function Index() {
+
   return (
     <div>
       <Header />
