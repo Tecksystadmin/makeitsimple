@@ -6,8 +6,7 @@ function Testimonial(){
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="common-heading ptag">
-            <span>Service Testimonials</span>
-            <h2>TESTIMONIAL</h2>
+            <span class= "p-4">TESTIMONIAL</span>
             <p class="mb30">Want to start designing better, and scaling faster? Then you need a dedicated design team. But don’t just take our word for it! Find out what our clients are saying about designing with MIS.</p>
           </div>
         </div>

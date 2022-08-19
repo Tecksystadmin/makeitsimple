@@ -22,8 +22,7 @@ function Price() {
           <div class="row justify-content-center">
             <div class="col-lg-8">
               <div class="common-heading ptag">
-                <span>Our Pricing</span>
-                <h2>Pricing Table</h2>
+                <h2 class="p-4">Pricing Table</h2>
                 <p class="mb30">
                   Choose from one of our three packages, all of which are priced
                   competitively. We offer comprehensive yet cost-effective

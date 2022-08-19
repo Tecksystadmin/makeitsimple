@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div>
       <footer className="m-5">
-        <div className="footer-row1">
+        {/* <div className="footer-row1">
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
@@ -39,7 +39,7 @@ function Footer() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="footer-row2">
           <div className="container">
             <div className="row justify-content-between">
