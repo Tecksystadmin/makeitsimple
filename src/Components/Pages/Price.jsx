@@ -51,26 +51,26 @@ function Price() {
                   </div>
                   <div class="priceoffer">
                     <h2>
-                     <span>₹ 29999</span>
+                      <span>₹ 29999</span>
                     </h2>
                   </div>
                 </div>
                 <div class="pricingoffers">
                   <ul class="list-ul ul-check">
                     <li>Unlimited Requests </li>
-				    <li>Unlimited Revisions</li>
-					<li>Unlimited Brands</li>
-					<li>No Contract</li>
-					<li>24 Hour Turnaround</li>
-					<li>Dedicated Design Team</li>
-					<li>Dedicated Project Manager</li>
-					<li>Free Stock Images</li>
-					<li>Source Files</li>
-					<li>Includes Print & Digital Designs</li>
-					<li>Also Includes Custom Illustrations</li>
-					<li>Also Includes GIFS</li>
-					<li>Also Includes Landing Page Designs</li>
-					<li>Trello Project Management</li>
+                    <li>Unlimited Revisions</li>
+                    <li>Unlimited Brands</li>
+                    <li>No Contract</li>
+                    <li>24 Hour Turnaround</li>
+                    <li>Dedicated Design Team</li>
+                    <li>Dedicated Project Manager</li>
+                    <li>Free Stock Images</li>
+                    <li>Source Files</li>
+                    <li>Includes Print & Digital Designs</li>
+                    <li>Also Includes Custom Illustrations</li>
+                    <li>Also Includes GIFS</li>
+                    <li>Also Includes Landing Page Designs</li>
+                    <li>Trello Project Management</li>
                   </ul>
                 </div>
                 <div class="priceodernow">
@@ -124,12 +124,12 @@ function Price() {
                 <div class="pricingoffers">
                   <ul class="list-ul ul-check">
                     <li>Unlimited Requests </li>
-				    <li>Unlimited Revisions</li>
-					<li>Unlimited Brands</li>
-					<li>No Contract</li>
-					<li>2-4 Day Turnaround</li>
-					<li>Dedicated Design Team</li>
-					<li>Dedicated Project Manager</li>
+                    <li>Unlimited Revisions</li>
+                    <li>Unlimited Brands</li>
+                    <li>No Contract</li>
+                    <li>2-4 Day Turnaround</li>
+                    <li>Dedicated Design Team</li>
+                    <li>Dedicated Project Manager</li>
                     <li>Free Stock Image</li>
                     <li>Free Stock Videos</li>
                     <li>Free Stock Audios</li>
@@ -188,10 +188,10 @@ function Price() {
                 <div class="pricingoffers">
                   <ul class="list-ul ul-check">
                     <li>Unlimited Requests </li>
-				    <li>Unlimited Revisions</li>
-					<li>Unlimited Brands</li>
-					<li>No Contract</li>
-					<li>2-4 Day Turnaround</li>
+                    <li>Unlimited Revisions</li>
+                    <li>Unlimited Brands</li>
+                    <li>No Contract</li>
+                    <li>2-4 Day Turnaround</li>
                     <li>24 Hour Turnaround For Graphics</li>
                     <li>Dedicated Design & Video Team</li>
                     <li>Dedicated Project Manager</li>
@@ -228,6 +228,183 @@ function Price() {
                 </div>
               </div>
             </div>
+          </div>
+          <div class="row justify-content-center">
+            <div >
+              <div class="niwaxpricingbox shadow">
+                <div
+                  class="pricingheader"
+                  data-background="images/icons/plan-1.svg"
+                >
+                  <h2>What's Included in my monthly subscription fee ?</h2>
+                  <p>With each subscription you get features that will help you make and manage your design requests with ease..</p>
+                </div>
+                <div class="pricingrate">
+                  <div class="pricevalue">
+                    <h2>
+                      Graphics
+                    </h2>
+
+                  </div>
+
+                </div>
+                <div class="pricingoffers">
+
+                  <p>is our power-packed graphic design subscription. Unlike other companies that provide multiple tiers of service and a very limited standard subscription, offers one graphic design subscription. And it includes ALL the designs you need, without having to pay extra premiums. From print and digital designs for your day to day marketing, to custom illustrations, landing page designs and GIFS for unique campaigns. We know that your design needs can evolve and vary and so we’ve created one subscription that’s versatile enough to handle everything you need. </p>
+
+
+                </div>
+                <div class="pricingrate">
+                  <div class="pricevalue">
+                    <h2>
+                      Video
+                    </h2>
+
+                  </div>
+
+                </div>
+                <div class="pricingoffers">
+                  <p>is our power-packed graphic design subscription. Unlike other companies that provide multiple tiers of service and a very limited standard subscription, offers one graphic design subscription. And it includes ALL the designs you need, without having to pay extra premiums. From print and digital designs for your day to day marketing, to custom illustrations, landing page designs and GIFS for unique campaigns. We know that your design needs can evolve and vary and so we’ve created one subscription that’s versatile enough to handle everything you need.</p>
+                </div>
+
+                <div class="pricingrate">
+                  <div class="pricevalue">
+                    <h2>
+                      Graphics +Video
+                    </h2>
+
+                  </div>
+
+                </div>
+                <div class="pricingoffers">
+                  <p>includes all the features of Graphics and all the features of Video, for a discounted flat monthly fee!<br/>
+
+                    And, with every subscription, you can invite team members as you’d like to help you make and manage design requests at no extra cost!</p>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-6 ">
+              <div class="niwaxpricingbox shadow">
+                <div
+                  class="pricingheader"
+                  data-background="images/icons/plan-1.svg"
+                >
+                  <h2>Graphic Designing</h2>
+                  
+                </div>
+                
+                <div class="pricingoffers">
+                <p>What we do</p>
+                  <ul class="list-ul ul-check">
+                    <li>Amazon Graphics </li>
+                    <li>Billboards </li>
+                    <li>Book Covers</li>
+                    <li>Booklets</li>
+                    <li>Business Cards</li>
+                    <li>Characters</li>
+                    <li>Corporate Folders</li>
+                    <li>Display Ads</li>
+                    <li>Ebook Layouts</li>
+                    <li>EDM (Email Direct Mail)</li>
+                    <li>Event Invitations</li>
+                    <li>GIFS</li>
+                    <li>Infographics</li>
+                    <li>Logos</li>
+                    <li>Newsletters</li>
+                    <li>Podcast Covers</li>
+                    <li>PowerPoint Templates</li>
+                    <li>Print Ads</li>
+                    <li>Promotional Materials</li>
+                    <li>Signage</li>
+                    <li>Stationery Sets</li>
+                    <li>Tradeshow Banners</li>
+                    <li>Web Ads</li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 ">
+              <div class="niwaxpricingbox shadow reco">
+                <div
+                  class="pricingheader"
+                  data-background="images/icons/plan-2.svg"
+                >
+                  <h2>Video</h2>
+                </div>
+                
+                <div class="pricingoffers">
+                  <ul class="list-ul ul-check">
+                    <li>Background Removal </li>
+                    <li>Blog Images</li>
+                    <li>Book Layouts</li>
+                    <li>Brochures</li>
+                    <li>Business Reports</li>
+                    <li>Company Profiles</li>
+                    <li>Custom Illustrations</li>
+                    <li>Ebook Covers</li>
+                    <li>Ecommerce Graphics</li>
+                    <li>Email Signatures</li>
+                    <li>Flyers & Posters</li>
+                    <li>Icons</li>
+                    <li>Landing Pages</li>
+                    <li>Magazine & Newspaper Ads</li>
+                    <li>Packaging & Labels</li>
+                    <li>Point Of Sale Materials</li>
+                    <li>Presentation Decks</li>
+                    <li>Product Mock-ups</li>
+                    <li>Restaurant Menus</li>
+                    <li>Social Media Posts & Ads</li>
+                    <li>T-shirt Design</li>
+                    <li>Vehicle Wraps</li>
+                    <li>And just about anything that can be designed in PS, AI, or INDD.</li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+
+            
+          </div>
+          <div class="row justify-content-center">
+            <div >
+              <div class="niwaxpricingbox shadow">
+                <div
+                  class="pricingheader"
+                  data-background="images/icons/plan-1.svg"
+                >
+                  <h2 class="text-center">View Portfolio</h2>
+                </div>
+                <div class="pricingrate">
+                  <div class="pricevalue">
+                    <h2 class="p-3">
+                      What we don't do
+                    </h2>
+                    <ul class="list-ul ul-check">
+                    <li> Ad development </li>
+                    <li>Marketing Strategy </li>
+                    <li>HTML5 Ads</li>
+                    <li>3D / CAD</li>
+                    <li>Web, Mobile Or App Design Projects</li>
+                    <li>Coding & Development</li>
+                  </ul>
+
+                  </div>
+
+                </div>
+                
+                
+
+              </div>
+            </div>
+
+
           </div>
         </div>
       </section>
